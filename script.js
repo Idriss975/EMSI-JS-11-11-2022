@@ -1,4 +1,4 @@
-let p = prompt("donner la valeur")
+let p = Number(prompt("donner la valeur"))
 
 function premier(arg)
 {
@@ -8,3 +8,5 @@ function premier(arg)
     }
     return true;
 }
+
+console.log(premier(p))
